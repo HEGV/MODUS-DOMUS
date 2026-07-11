@@ -47,7 +47,7 @@
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="mailto:info@domus-modus.hr?subject=Upit%20za%20ponudu" data-i18n="offerButton">Zatražite ponudu</a>
-          <a class="btn btn-secondary" href="https://wa.me/385915208349" target="_blank" rel="noopener" data-i18n="whatsappButton">WhatsApp</a>
+          <a class="btn btn-secondary js-whatsapp-launch" href="https://wa.me/385915208349" data-i18n="whatsappButton">WhatsApp</a>
         </div>
         <div class="coverage" data-i18n="coverage">Hrvatska • Europska unija • Švicarska</div>
       </div>
@@ -66,7 +66,7 @@
         </p>
         <div class="stats">
           <div><strong>100%</strong><span data-i18n="statCustom">izrada po mjeri</span></div>
-          <div><strong>3</strong><span data-i18n="statMarkets">tržišta poslovanja</span></div>
+          <div><strong>3</strong><span data-i18n="statMarkets">Hrvatska • EU • Švicarska</span></div>
           <div><strong>1</strong><span data-i18n="statPartner">partner za cijeli interijer</span></div>
         </div>
       </div>
@@ -90,8 +90,8 @@
         <article class="service-card image-bedroom">
           <div>
             <span>02</span>
-            <h3 data-i18n="serviceBedroom">Spavaće sobe</h3>
-            <p data-i18n="serviceBedroomText">Kreveti, ormari i detalji koji stvaraju miran i skladan ambijent.</p>
+            <h3 data-i18n="serviceBedroom">Spavaće sobe i ormari</h3>
+            <p data-i18n="serviceBedroomText">Kreveti, ugradbeni ormari i namještaj prilagođen prostoru.</p>
           </div>
         </article>
 
@@ -113,26 +113,33 @@
       </div>
     </section>
 
-    <section id="projects" class="section projects">
-      <div class="section-heading">
+    <section id="projects" class="section gallery-teaser">
+      <div class="gallery-teaser-copy">
         <p class="section-kicker" data-i18n="projectsKicker">ODABRANI RADOVI</p>
-        <h2 data-i18n="projectsTitle">Prostori stvoreni za svakodnevni život.</h2>
+        <h2 data-i18n="projectsTitle">Pogledajte dio naših radova.</h2>
+        <p data-i18n="galleryTeaserText">Sobe i ormari, kuhinje i moderni dnevni prostori — cijela galerija na jednom mjestu.</p>
+        <a class="btn gallery-button" href="galerija.html" data-i18n="galleryButton">Otvori galeriju</a>
       </div>
-      <div class="project-grid">
-        <figure class="project project-large">
-          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85" alt="Moderan interijer" loading="lazy">
-          <figcaption data-i18n="projectOne">Moderan dnevni prostor</figcaption>
-        </figure>
-        <figure class="project">
-          <img src="https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&fit=crop&w=1200&q=85" alt="Moderna kuhinja" loading="lazy">
-          <figcaption data-i18n="projectTwo">Kuhinja po mjeri</figcaption>
-        </figure>
-        <figure class="project">
-          <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Spavaća soba" loading="lazy">
-          <figcaption data-i18n="projectThree">Elegantna spavaća soba</figcaption>
-        </figure>
+      <div class="gallery-preview">
+        <a class="preview-card preview-large" href="galerija.html#kuhinje" aria-label="Otvori galeriju kuhinja">
+          <figure>
+            <img src="assets/gallery/kuhinja-3.jpg" alt="Kuhinja po mjeri" loading="lazy">
+            <figcaption data-i18n="galleryKitchens">Kuhinje po mjeri</figcaption>
+          </figure>
+        </a>
+        <a class="preview-card" href="galerija.html#sobe" aria-label="Otvori galeriju soba i ormara">
+          <figure>
+            <img src="assets/gallery/sobe-4.jpg" alt="Sobe i ormari po mjeri" loading="lazy">
+            <figcaption data-i18n="galleryRooms">Sobe i ormari po mjeri</figcaption>
+          </figure>
+        </a>
+        <a class="preview-card" href="galerija.html#dnevni" aria-label="Otvori galeriju dnevnih prostora">
+          <figure>
+            <img src="assets/gallery/dnevni-1.jpg" alt="Moderan dnevni prostor" loading="lazy">
+            <figcaption data-i18n="galleryLiving">Moderan dnevni prostor</figcaption>
+          </figure>
+        </a>
       </div>
-      <p class="photo-note" data-i18n="photoNote">Fotografije su privremene i mogu se kasnije zamijeniti stvarnim projektima tvrtke.</p>
     </section>
 
     <section id="process" class="section process">
@@ -156,19 +163,22 @@
       </div>
 
       <div class="contact-card">
-        <a href="tel:+385915208349">
-          <span data-i18n="phoneLabel">Telefon / WhatsApp</span>
+        <a class="contact-item contact-phone-row" href="tel:+385915208349">
+          <span data-i18n="phoneLabel">Voditelj poslovanja · Telefon / WhatsApp</span>
           <strong>+385 91 520 83 49</strong>
         </a>
-        <a href="mailto:info@domus-modus.hr">
+
+        <a class="contact-item" href="mailto:krunoslav.hegedic@domus-modus.hr">
+          <span data-i18n="managerEmailLabel">Direktan e-mail voditelja poslovanja</span>
+          <strong>krunoslav.hegedic@domus-modus.hr</strong>
+        </a>
+
+        <a class="contact-item" href="mailto:info@domus-modus.hr">
           <span data-i18n="offersLabel">Ponude i upiti</span>
           <strong>info@domus-modus.hr</strong>
         </a>
-        <a href="mailto:krunoslav.hegedic@domus-modus.hr">
-          <span data-i18n="ownerLabel">Vlasnik tvrtke</span>
-          <strong>krunoslav.hegedic@domus-modus.hr</strong>
-        </a>
-        <a class="contact-cta" href="https://wa.me/385915208349" target="_blank" rel="noopener" data-i18n="openWhatsapp">Otvori WhatsApp razgovor →</a>
+
+        <a class="contact-cta js-whatsapp-launch" href="https://wa.me/385915208349" data-i18n="openWhatsapp">Otvori WhatsApp razgovor →</a>
       </div>
     </section>
   </main>
@@ -179,7 +189,7 @@
     <p data-i18n="footerCoverage">Poslujemo u Hrvatskoj, Europskoj uniji i Švicarskoj.</p>
   </footer>
 
-  <a class="floating-whatsapp" href="https://wa.me/385915208349" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <a class="floating-whatsapp js-whatsapp-launch" href="https://wa.me/385915208349" aria-label="WhatsApp">
     <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
       <path fill="currentColor" d="M19.11 17.21c-.26-.13-1.53-.75-1.77-.84-.24-.09-.41-.13-.59.13-.17.26-.67.84-.82 1.01-.15.17-.3.2-.56.07-.26-.13-1.08-.4-2.06-1.27-.76-.68-1.28-1.52-1.43-1.78-.15-.26-.02-.4.11-.53.12-.12.26-.3.39-.45.13-.15.17-.26.26-.43.09-.17.04-.32-.02-.45-.07-.13-.59-1.42-.8-1.94-.21-.51-.43-.44-.59-.45h-.5c-.17 0-.45.07-.69.32-.24.26-.91.89-.91 2.17s.93 2.52 1.06 2.69c.13.17 1.83 2.79 4.43 3.91.62.27 1.1.43 1.48.55.62.2 1.18.17 1.62.1.49-.07 1.53-.62 1.75-1.22.22-.6.22-1.11.15-1.22-.06-.11-.24-.17-.5-.3Z"/>
       <path fill="currentColor" d="M16.04 3.2A12.62 12.62 0 0 0 5.2 22.3L3.5 28.8l6.66-1.75A12.62 12.62 0 1 0 16.04 3.2Zm0 22.94c-1.99 0-3.93-.54-5.62-1.57l-.4-.24-3.95 1.04 1.05-3.85-.26-.4a10.31 10.31 0 1 1 9.18 5.02Z"/>

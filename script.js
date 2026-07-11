@@ -7,15 +7,15 @@ const translations = {
     offerButton:"Zatražite ponudu", whatsappButton:"WhatsApp", coverage:"Hrvatska • Europska unija • Švicarska",
     aboutKicker:"MODUS DOMUS", aboutTitle:"Od ideje do savršeno oblikovanog interijera.",
     aboutText:"Stvaramo funkcionalan, moderan i dugotrajan namještaj prilagođen svakom prostoru. Svakom projektu pristupamo individualno – od prvog razgovora i mjerenja do izrade i završne montaže.",
-    statCustom:"izrada po mjeri", statMarkets:"tržišta poslovanja", statPartner:"partner za cijeli interijer",
+    statCustom:"izrada po mjeri", statMarkets:"Hrvatska • EU • Švicarska", statPartner:"partner za cijeli interijer",
     servicesKicker:"NAŠE USLUGE", servicesTitle:"Kompletna rješenja za vaš dom i poslovni prostor.",
     serviceKitchen:"Kuhinje po mjeri", serviceKitchenText:"Funkcionalne, elegantne i potpuno prilagođene vašem prostoru.",
-    serviceBedroom:"Spavaće sobe", serviceBedroomText:"Kreveti, ormari i detalji koji stvaraju miran i skladan ambijent.",
+    serviceBedroom:"Spavaće sobe i ormari", serviceBedroomText:"Kreveti, ugradbeni ormari i namještaj prilagođen prostoru.",
     serviceLiving:"Dnevni boravci", serviceLivingText:"Moderna rješenja za dnevni prostor, TV elemente i police.",
     serviceInterior:"Kompletni interijeri", serviceInteriorText:"Jedinstven dizajn i izvedba cijelog stambenog ili poslovnog prostora.",
-    projectsKicker:"ODABRANI RADOVI", projectsTitle:"Prostori stvoreni za svakodnevni život.",
+    projectsKicker:"ODABRANI RADOVI", projectsTitle:"Pogledajte dio naših radova.", galleryTeaserText:"Sobe i ormari, kuhinje i moderni dnevni prostori — cijela galerija na jednom mjestu.", galleryButton:"Otvori galeriju", galleryRooms:"Sobe i ormari po mjeri", galleryRoomsText:"Ugradbeni ormari, klizna vrata i rješenja prilagođena svakom prostoru.", galleryKitchens:"Kuhinje po mjeri", galleryKitchensText:"Moderne kuhinje, precizna izvedba i funkcionalni detalji za svakodnevnu upotrebu.", galleryLiving:"Moderan dnevni prostor", galleryLivingText:"TV elementi, dekorativne obloge i kompletna rješenja za dnevni boravak.",
     projectOne:"Moderan dnevni prostor", projectTwo:"Kuhinja po mjeri", projectThree:"Elegantna spavaća soba",
-    photoNote:"Fotografije su privremene i mogu se kasnije zamijeniti stvarnim projektima tvrtke.",
+    photoNote:"Klikom na fotografiju možete je otvoriti u većem prikazu.",
     processKicker:"KAKO RADIMO", processTitle:"Jasan proces od prvog kontakta do montaže.",
     stepOne:"Razgovor i ideja", stepOneText:"Upoznajemo vaše želje, prostor, stil i budžet.",
     stepTwo:"Mjerenje i projekt", stepTwoText:"Izrađujemo precizan plan i prijedlog rješenja.",
@@ -23,7 +23,7 @@ const translations = {
     stepFour:"Dostava i montaža", stepFourText:"Završavamo projekt profesionalnom montažom na lokaciji.",
     contactKicker:"POKRENIMO PROJEKT", contactTitle:"Imate ideju? Pretvorimo je u prostor po vašoj mjeri.",
     contactText:"Pošaljite nam osnovne informacije, fotografije ili dimenzije prostora. Javit ćemo vam se radi dogovora.",
-    phoneLabel:"Telefon / WhatsApp", offersLabel:"Ponude i upiti", ownerLabel:"Vlasnik tvrtke",
+    phoneLabel:"Voditelj poslovanja · Telefon / WhatsApp", managerEmailLabel:"Direktan e-mail voditelja poslovanja", offersLabel:"Ponude i upiti", ownerLabel:"Voditelj poslovanja",
     openWhatsapp:"Otvori WhatsApp razgovor →", rights:"Sva prava pridržana.",
     footerCoverage:"Poslujemo u Hrvatskoj, Europskoj uniji i Švicarskoj."
   },
@@ -35,15 +35,15 @@ const translations = {
     offerButton:"Request a quote", whatsappButton:"WhatsApp", coverage:"Croatia • European Union • Switzerland",
     aboutKicker:"MODUS DOMUS", aboutTitle:"From the first idea to a perfectly designed interior.",
     aboutText:"We create functional, modern and durable furniture tailored to every space. Each project is handled individually – from the first consultation and measurements to production and final installation.",
-    statCustom:"custom-made", statMarkets:"business markets", statPartner:"partner for the whole interior",
+    statCustom:"custom-made", statMarkets:"Croatia • EU • Switzerland", statPartner:"partner for the whole interior",
     servicesKicker:"OUR SERVICES", servicesTitle:"Complete solutions for your home and business space.",
     serviceKitchen:"Custom kitchens", serviceKitchenText:"Functional, elegant and fully adapted to your space.",
-    serviceBedroom:"Bedrooms", serviceBedroomText:"Beds, wardrobes and details that create a calm and balanced atmosphere.",
+    serviceBedroom:"Bedrooms and wardrobes", serviceBedroomText:"Beds, built-in wardrobes and furniture tailored to the room.",
     serviceLiving:"Living rooms", serviceLivingText:"Modern solutions for living areas, TV units and shelving.",
     serviceInterior:"Complete interiors", serviceInteriorText:"A unified design and execution of residential or commercial interiors.",
-    projectsKicker:"SELECTED WORK", projectsTitle:"Spaces designed for everyday living.",
+    projectsKicker:"SELECTED WORK", projectsTitle:"Explore a selection of our work.", galleryTeaserText:"Bedrooms and wardrobes, kitchens and modern living spaces — the complete gallery in one place.", galleryButton:"Open gallery", galleryRooms:"Bedrooms and custom wardrobes", galleryRoomsText:"Built-in wardrobes, sliding doors and solutions tailored to every space.", galleryKitchens:"Custom kitchens", galleryKitchensText:"Modern kitchens, precise execution and functional details for everyday use.", galleryLiving:"Modern living spaces", galleryLivingText:"TV units, decorative wall panels and complete living-room solutions.",
     projectOne:"Modern living space", projectTwo:"Custom-made kitchen", projectThree:"Elegant bedroom",
-    photoNote:"The photographs are temporary and can later be replaced with the company’s own projects.",
+    photoNote:"Click any photo to open a larger view.",
     processKicker:"HOW WE WORK", processTitle:"A clear process from the first contact to installation.",
     stepOne:"Consultation and idea", stepOneText:"We learn about your wishes, space, style and budget.",
     stepTwo:"Measurements and design", stepTwoText:"We prepare an accurate plan and propose the best solution.",
@@ -51,7 +51,7 @@ const translations = {
     stepFour:"Delivery and installation", stepFourText:"We complete the project with professional on-site installation.",
     contactKicker:"START YOUR PROJECT", contactTitle:"Have an idea? Let us turn it into a space made for you.",
     contactText:"Send us basic information, photos or room dimensions. We will contact you to discuss the next steps.",
-    phoneLabel:"Phone / WhatsApp", offersLabel:"Quotes and enquiries", ownerLabel:"Company owner",
+    phoneLabel:"Business manager · Phone / WhatsApp", managerEmailLabel:"Direct business manager email", offersLabel:"Quotes and enquiries", ownerLabel:"Business manager",
     openWhatsapp:"Open WhatsApp chat →", rights:"All rights reserved.",
     footerCoverage:"We operate in Croatia, the European Union and Switzerland."
   },
@@ -63,15 +63,15 @@ const translations = {
     offerButton:"Angebot anfordern", whatsappButton:"WhatsApp", coverage:"Kroatien • Europäische Union • Schweiz",
     aboutKicker:"MODUS DOMUS", aboutTitle:"Von der Idee bis zum perfekt gestalteten Innenraum.",
     aboutText:"Wir schaffen funktionale, moderne und langlebige Möbel, die individuell an jeden Raum angepasst werden. Jedes Projekt begleiten wir persönlich – vom ersten Gespräch und Aufmaß bis zur Fertigung und Endmontage.",
-    statCustom:"individuelle Maßanfertigung", statMarkets:"Geschäftsregionen", statPartner:"Partner für den gesamten Innenraum",
+    statCustom:"individuelle Maßanfertigung", statMarkets:"Kroatien • EU • Schweiz", statPartner:"Partner für den gesamten Innenraum",
     servicesKicker:"UNSERE LEISTUNGEN", servicesTitle:"Komplettlösungen für Wohn- und Geschäftsräume.",
     serviceKitchen:"Küchen nach Maß", serviceKitchenText:"Funktional, elegant und vollständig an Ihren Raum angepasst.",
-    serviceBedroom:"Schlafzimmer", serviceBedroomText:"Betten, Schränke und Details für eine ruhige und harmonische Atmosphäre.",
+    serviceBedroom:"Schlafzimmer und Schränke", serviceBedroomText:"Betten, Einbauschränke und Möbel, die an den Raum angepasst sind.",
     serviceLiving:"Wohnzimmer", serviceLivingText:"Moderne Lösungen für Wohnbereiche, TV-Möbel und Regale.",
     serviceInterior:"Kompletter Innenausbau", serviceInteriorText:"Einheitliche Planung und Umsetzung ganzer Wohn- oder Geschäftsräume.",
-    projectsKicker:"AUSGEWÄHLTE ARBEITEN", projectsTitle:"Räume für das tägliche Leben.",
+    projectsKicker:"AUSGEWÄHLTE ARBEITEN", projectsTitle:"Entdecken Sie eine Auswahl unserer Arbeiten.", galleryTeaserText:"Schlafzimmer und Schränke, Küchen und moderne Wohnbereiche — die komplette Galerie an einem Ort.", galleryButton:"Galerie öffnen", galleryRooms:"Schlafzimmer und Einbauschränke", galleryRoomsText:"Einbauschränke, Schiebetüren und Lösungen, die an jeden Raum angepasst sind.", galleryKitchens:"Küchen nach Maß", galleryKitchensText:"Moderne Küchen, präzise Ausführung und funktionale Details für den Alltag.", galleryLiving:"Moderne Wohnbereiche", galleryLivingText:"TV-Möbel, dekorative Wandverkleidungen und komplette Wohnraumlösungen.",
     projectOne:"Moderner Wohnbereich", projectTwo:"Küche nach Maß", projectThree:"Elegantes Schlafzimmer",
-    photoNote:"Die Fotos sind vorläufig und können später durch eigene Referenzprojekte ersetzt werden.",
+    photoNote:"Klicken Sie auf ein Foto, um es größer anzuzeigen.",
     processKicker:"UNSER ABLAUF", processTitle:"Ein klarer Prozess vom ersten Kontakt bis zur Montage.",
     stepOne:"Beratung und Idee", stepOneText:"Wir lernen Ihre Wünsche, den Raum, Ihren Stil und Ihr Budget kennen.",
     stepTwo:"Aufmaß und Planung", stepTwoText:"Wir erstellen einen präzisen Plan und schlagen die passende Lösung vor.",
@@ -79,7 +79,7 @@ const translations = {
     stepFour:"Lieferung und Montage", stepFourText:"Wir schließen das Projekt mit einer professionellen Montage vor Ort ab.",
     contactKicker:"PROJEKT STARTEN", contactTitle:"Sie haben eine Idee? Wir machen daraus Ihren individuellen Raum.",
     contactText:"Senden Sie uns erste Informationen, Fotos oder Raummaße. Wir melden uns für die weitere Abstimmung.",
-    phoneLabel:"Telefon / WhatsApp", offersLabel:"Angebote und Anfragen", ownerLabel:"Inhaber",
+    phoneLabel:"Geschäftsleitung · Telefon / WhatsApp", managerEmailLabel:"Direkte E-Mail der Geschäftsleitung", offersLabel:"Angebote und Anfragen", ownerLabel:"Geschäftsleitung",
     openWhatsapp:"WhatsApp-Chat öffnen →", rights:"Alle Rechte vorbehalten.",
     footerCoverage:"Wir sind in Kroatien, der Europäischen Union und der Schweiz tätig."
   }
@@ -110,3 +110,38 @@ menuButton.addEventListener("click", () => {
   menuButton.setAttribute("aria-expanded", String(open));
 });
 nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => nav.classList.remove("open")));
+
+const WHATSAPP_PHONE = "385915208349";
+const WHATSAPP_APP_URL = `whatsapp://send?phone=${WHATSAPP_PHONE}`;
+const WHATSAPP_WEB_URL = `https://wa.me/${WHATSAPP_PHONE}`;
+
+function openWhatsAppAppFirst(event) {
+  event.preventDefault();
+
+  let fallbackTimer;
+  let appOpened = false;
+
+  const cancelFallback = () => {
+    appOpened = true;
+    if (fallbackTimer) window.clearTimeout(fallbackTimer);
+  };
+
+  const onVisibilityChange = () => {
+    if (document.hidden) cancelFallback();
+  };
+
+  window.addEventListener("blur", cancelFallback, { once: true });
+  document.addEventListener("visibilitychange", onVisibilityChange, { once: true });
+
+  window.location.href = WHATSAPP_APP_URL;
+
+  fallbackTimer = window.setTimeout(() => {
+    if (!appOpened && !document.hidden) {
+      window.location.href = WHATSAPP_WEB_URL;
+    }
+  }, 2200);
+}
+
+document.querySelectorAll(".js-whatsapp-launch").forEach(link => {
+  link.addEventListener("click", openWhatsAppAppFirst);
+});

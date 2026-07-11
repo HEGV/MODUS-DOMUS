@@ -1,18 +1,25 @@
 # Modus Domus – web stranica
 
-## Datoteke
-- `index.html` – sadržaj stranice
-- `style.css` – izgled i animacije
-- `script.js` – hrvatski, engleski i njemački jezik
-- `assets/logo-modus-domus.png` – prilagođeni logo
+## Glavne datoteke
+- `index.html` – početna stranica
+- `galerija.html` – zasebna galerija radova
+- `style.css` – izgled početne stranice
+- `gallery.css` – izgled galerije
+- `script.js` – jezici i funkcije početne stranice
+- `gallery.js` – jezici i povećani prikaz fotografija
+- `assets/` – logo, fotografije usluga i galerija
 
-## Lokalno pokretanje
-Otvorite `index.html` u pregledniku.
-
-## Objavljivanje
-Projekt se može prenijeti na GitHub i povezati s Cloudflare Pages ili GitHub Pages.
+## Objavljivanje na GitHub Pages
+Sve datoteke i cijelu mapu `assets` prenesite u glavni direktorij repozitorija.
+Datoteka `index.html` mora biti direktno u glavnom direktoriju.
 
 ## Kasnije izmjene
-Tekstovi se mijenjaju u `index.html` i `script.js`.
-Boje, raspored i animacije mijenjaju se u `style.css`.
-Privremene internetske fotografije mogu se zamijeniti vlastitim slikama u mapi `assets`.
+- Tekstovi početne stranice: `index.html` i `script.js`
+- Tekstovi galerije: `galerija.html` i `gallery.js`
+- Fotografije galerije: `assets/gallery`
+- Fotografije usluga: `assets/services`
+
+- WhatsApp gumbi prvo pokušavaju otvoriti instaliranu aplikaciju, a zatim koriste web-verziju kao rezervu.
+
+## Verzija 10
+Naslovne fotografije u dijelu Naše usluge zamijenjene su novim slikama. Fotografije su prilagođene širokim karticama tako da je cijeli motiv vidljiv bez rastezanja.
